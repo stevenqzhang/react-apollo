@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Link from './Link'
 import { graphql } from 'react-apollo'
 import gql from 'graphql-tag'
-import { LINKS_PER_PAGE } from '../constants'
 
 class LinkList extends Component {
   componentDidMount() {

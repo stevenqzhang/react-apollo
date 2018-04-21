@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import LinkList from './LinkList'
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 class App extends Component {
   render() {
