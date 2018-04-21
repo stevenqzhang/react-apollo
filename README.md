@@ -4,8 +4,24 @@
 1. Run yarn run from server directory
 
 2. Run yarn run from root directory
- 
 
+## adding data
+
+Go to server's graphql playground (localhost:4000) 
+
+Run
+
+```
+mutation CreateApolloLink {
+  post(
+    description: "anyDescription",
+    url: "anyURl"
+  ) {
+    id
+  }
+}
+
+```
 
 # React & Apollo Tutorial
 
@@ -22,7 +38,7 @@ git clone https://github.com/howtographql/react-apollo/
 ### 2. Deploy the Prisma database service
 
 ```sh
-cd react-apollo/server
+cd react-apollo/servergs
 yarn prisma deploy
 ```
 
